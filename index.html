@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my design</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/normaliz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Metal+Mania&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+        <!--start setting box-->
+        <div class="setingbox">
+            <div class="toggle">
+                <i class=' icon fas fa-plus-circle '></i>
+            </div>
+                <!-- option to change color-->
+            <div class="optionseting">
+                <h4>colors</h4>
+                <ul class="colorlist">
+                    <li class="active" data-color="green"></li>
+                    <li  data-color="red"></li>
+                    <li  data-color="#b339b3"></li>
+                    <li  data-color="#0000008f"></li>
+                </ul>
+            </div>
+
+              <!-- option to change background color-->
+            <div class="optionbox">
+                <h4>rondam background</h4>
+                <div class="rondam">
+                    <span class="yes" data-bacground="yes" >yes</span>
+                    <span class="no" data-bacground="no">no</span>
+                </div>
+            </div>
+
+            
+              <!-- option to change buults display-->
+              <div class="optionbox">
+                <h4>Show Bullets</h4>
+                <div class="bults-op">
+                    <span class="yes active" data-display="show" >yes</span>
+                    <span class="no" data-display="hide">no</span>
+                </div>
+            </div>
+
+            <button>Reset option</button>
+
+        </div>
+        <!--end setting box-->
+
+        <div class="navbuulet">
+          <div class="bullt" data-section=".landing-page">
+            <div class="tooltip">Home</div>
+          </div>
+          <div class="bullt" data-section=".aboutus">
+            <div class="tooltip">About us</div>
+          </div>
+          <div class="bullt" data-section=".ourskils">
+            <div class="tooltip">My skils</div>
+          </div>
+          <div class="bullt" data-section=".gallery">
+            <div class="tooltip">Our Gallery</div>
+          </div>
+          <div class="bullt" data-section=".temline">
+            <div class="tooltip">temline</div>
+          </div>
+          <div class="bullt" data-section=".featurs">
+            <div class="tooltip">Our Feature</div>
+          </div>
+          <div class="bullt" data-section=".testmailins">
+            <div class="tooltip">testmailins</div>
+          </div>
+          <div class="bullt" data-section=".contact">
+            <div class="tooltip">contac us</div>
+          </div>
+        
+        </div>
+
+
+        <!--start landing page-->
+        <div class="landing-page">
+            <div class="overlay"></div>
+            <div class="container">
+              <div class="header">
+                <div class="logo">my design</div>
+                <div class="con-link">
+                    <ul class="link">
+                        <li><a href="#" class="active" data-section=".landing-page">Home</a></li>
+                        <li><a href="#" data-section=".aboutus">About</a></li>
+                        <li><a href="#" data-section=".ourskils">Skills</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".temline">Time line</a></li>
+                        <li><a href="#" data-section=".featurs">Features</a></li>
+                        <li><a href="#" data-section=".testmailins">Testimonials</a></li>
+                        <li><a href="#" data-section=".contact">contact us</a></li>
+                    </ul>
+                    <button class="toogle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            
+            </div>
+                
+            <div class="introduce">
+                <h1>we are <span>creative</span> agency</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam nemo, in laudantium aliquid officia dicta.</p>
+            </div>
+
+        </div>
+        <!--end landibg page-->
+
+
+        <!--start about us-->
+        <div class="container">
+            <div class="aboutus">
+                <div class="info">
+                    <h2>about us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias adipisci magnam enim repellat officia.</p>
+                </div>
+                <div class="img">
+                    <img src="./img/images.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!--end about us-->
+
+      <!--start our skils-->
+        <div class="ourskils">
+          <div class="container">
+            <h2>My Skills</h2>
+          <!-- skils 1-->
+          <div class="skilbox">
+            <div class="skilname">HTML</div>
+            <div class="skilprog">
+              <span data-prog="70%">70%</span>
+            </div>
+          </div>
+
+          <!-- skils 2-->
+          <div class="skilbox">
+            <div class="skilname">CSS</div>
+            <div class="skilprog">
+              <span data-prog="100%">100%</span>
+            </div>
+          </div>
+
+          <!-- skils 3-->
+          <div class="skilbox">
+            <div class="skilname">bootstrap</div>
+            <div class="skilprog">
+              <span data-prog="90%">90%</span>
+            </div>
+          </div>
+
+          <!-- skils 4-->
+          <div class="skilbox">
+            <div class="skilname">Javascript</div>
+            <div class="skilprog">
+              <span data-prog="100%">100%</span>
+            </div>
+          </div>
+                <!-- skils 5-->
+                <div class="skilbox">
+                  <div class="skilname">typescript</div>
+                  <div class="skilprog">
+                    <span data-prog="95%">95%</span>
+                  </div>
+                </div>
+                      <!-- skils 6-->
+          <div class="skilbox">
+            <div class="skilname">C++</div>
+            <div class="skilprog">
+              <span data-prog="80%">80%</span>
+            </div>
+          </div>
+                <!-- skils 7-->
+                <div class="skilbox">
+                  <div class="skilname">React</div>
+                  <div class="skilprog">
+                    <span data-prog="90%">90%</span>
+                  </div>
+                </div>
+              <!-- skils 8-->
+              <div class="skilbox">
+                <div class="skilname">angular</div>
+                <div class="skilprog">
+                  <span data-prog="70%">70%</span>
+                </div>
+              </div>
+      
+        
+
+
+        </div>
+      </div>
+      <!--end our skils-->
+
+      <!--start our gallery -->
+      <div class="gallery">
+        <div class="container">
+          <h2>our gallery</h2>
+          <div class="imgbox">  
+            <img src="./img/1.jpeg" alt="img1">
+            <img src="./img/get-to-know-more-about-bebo-technologies-pvt-ltd-mobile.jpg" alt="img2">
+            <img src="./img/6.jpeg" alt="img3">
+            <img src="./img/4.jpg" alt="img4">
+            <img src="./img/images.jpeg" alt="img5">
+            <img src="./img/2.jpeg" alt="img6">
+            <img src="./img/3.jpg" alt="img7">
+          </div>
+        </div>
+      </div>
+    <!--end our gallery -->
+
+      <!--start temline -->
+      <div class="temline">
+        <div class="container">
+
+          <div class="content">
+            <div class="year">2020</div>
+
+
+            <div class="left">
+              <div class="text">
+                <h3>person heading</h3>
+                <p>Mohamed Aboelwafa;
+                  age:24
+                </p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="right">
+              <div class="text">
+                <h3> adress heading</h3>
+                <p>Cairo _obour City</p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="year">2022</div>
+
+
+            <div class="left">
+              <div class="text">
+                <h3> adress heading</h3>
+                <p>Cairo _obour City</p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="right">
+              <div class="text">
+
+                <h3> adress heading</h3>
+                <p>Cairo _obour City</p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+          </div>
+        </div>
+      </div>
+      <!--end temline -->
+      
+      <!--start feautres -->
+      <div class="featurs">
+        <h1>Our Featurs</h1>
+        <div class="container">
+
+          <!--start grid-->
+          <div class="grid">
+            <!--start box-->
+            <div class="box">
+              <img src="./img/istockphoto-1530746390-1024x1024.jpg" alt="">
+              <h2>mopile</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente sed ratione, suscipit facere voluptates natus!</p>
+            </div>
+
+            <div class="box">
+              <img src="./img/istockphoto-1488104422-1024x1024.jpg" alt="">
+              <h2>iphone</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente sed ratione, suscipit facere voluptates natus!</p>
+            </div>
+
+
+            <div class="box">
+              <img src="./img/istockphoto-1174207130-1024x1024.jpg" alt="">
+              <h2>sounds</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente sed ratione, suscipit facere voluptates natus!</p>
+            </div>
+            
+
+            <div class="box">
+              <img src="./img/istockphoto-181735301-612x612.jpg" alt="">
+              <h2>flowers</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente sed ratione, suscipit facere voluptates natus!</p>
+            </div>
+            
+            
+            
+            <div class="box">
+              <img src="./img/istockphoto-645182846-612x612.jpg" alt="">
+              <h2>animals</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente sed ratione, suscipit facere voluptates natus!</p>
+            </div>
+            
+            
+
+            <div class="box">
+              <img src="./img/11.jpg" alt="">
+              <h2>design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente sed ratione, suscipit facere voluptates natus!</p>
+            </div>
+          </div>
+          <!--end grid-->
+        </div>
+          </div>
+      <!--end feautres -->
+
+      <!--start testmainols-->
+      <div class="testmailins">
+        <div class="tsetcontent">
+          <div class="container">
+              <h1>testmailins</h1>
+              <h3>Comments</h3>
+              <div class="testbox">
+
+                <p>im very happy for service me and your price is not expensive bit quailty is very good</p>
+                <div class="person">
+                  <img src="./img/download.jpeg" alt="">
+                  <h4>Toni kross</h4>
+                  <p>ceo our company</p>
+                </div>
+                
+                
+              </div>
+
+            <div class="testbox">
+              <p>im very happy for service me and your price is not expensive bit quailty is very good</p>
+              <div class="person">
+                <img src="./img/images (2).jpeg" alt="">
+                <h4>Michal Lornezo</h4>
+                <p>mangement information</p>
+              </div>
+              
+            </div>
+
+            <div class="testbox">
+              <p>im very happy for service me and your price is not expensive bit quailty is very good</p>
+              <div class="person">
+                <img src="./img/images (1).jpeg" alt="dasds">
+                  <h4>JHoan Smith</h4>
+                  <p>office manger </p>
+              </div>
+                
+             </div>
+
+          </div>
+          </div>
+      </div>
+      <!--end testmainols-->
+
+      <!--start contact us-->
+      <div class="contact">
+        <div class="container">
+          <h2>contact us</h2>
+          <form action="">
+            <div class="side">
+              <input type="text" name="name" placeholder="Your Name">
+              <input type="number" name="phone" min="0" max="10" placeholder="Your Phone"> 
+              <input type="email" name="mail" placeholder="Your Email" required>
+              <input type="text" name="subject" value="subject">
+            </div>
+            <div class="min">
+              <textarea name="text" placeholder="Your message"> </textarea>
+              <button>submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--end contact us-->
+
+      <!--start footer-->
+      <footer>  
+        created with by M@ <span> eldogsh</span>
+
+      </footer>
+      <!--end footer-->
+
+
+
+      
+    <script src="js/main.js"></script>
+</body>
+</html>
